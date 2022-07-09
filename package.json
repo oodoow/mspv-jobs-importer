@@ -1,0 +1,27 @@
+{
+	"name": "mpsv-jobs-importer",
+	"version": "0.0.1",
+	"description": "This is a boilerplate of an Apify actor.",
+	"dependencies": {
+		"apify": "^2.3.2",
+		"apify-cli": "^0.7.2",
+		"axios": "^0.27.2",
+		"event-stream": "^4.0.1",
+		"got": "^12.1.0",
+		"got-scraping": "^3.2.9",
+		"hyperquest": "^2.1.3",
+		"JSONStream": "^1.3.5"
+	},
+	"devDependencies": {
+		"@apify/eslint-config": "^0.1.3",
+		"eslint": "^7.0.0"
+	},
+	"scripts": {
+		"start": "node main.js",
+		"lint": "./node_modules/.bin/eslint ./src --ext .js,.jsx",
+		"lint:fix": "./node_modules/.bin/eslint ./src --ext .js,.jsx --fix",
+		"test": "echo \"Error: oops, the actor has no tests yet, sad!\" && exit 1"
+	},
+	"author": "It's not you it's me",
+	"license": "ISC"
+}
